@@ -1,28 +1,19 @@
-Rational Numbers with GCD & LCM
-📌 Overview
+# Rational Numbers with GCD & LCM
+# 📌 Overview
 
 This project provides a Rational class to represent fractions with automatic simplification. It supports arithmetic operations, string formatting, and utilities for computing GCD and LCM. Helper functions gcd and lcm are implemented separately and used within the class. A UML diagram illustrates the design.
+# Features
 
-✨ Features
+✅ Compute GCD using recursion
 
-Automatic fraction simplification
+✅ Compute LCM from GCD
 
-Addition and subtraction of rationals
+✅ Represent fractions as Rational(numerator, denominator)
 
-Safe denominator handling (no zero values)
+✅ Automatic fraction simplification
 
-GCD and LCM utilities for denominators
+✅ Addition and subtraction of rational numbers
 
-Readable string representation
+✅ String representation ("numerator/denominator")
 
-
-🚀 Usage
-from rational import Rational
-
-r1 = Rational(1, 2)
-r2 = Rational(3, 4)
-
-print(r1 + r2)        # 5/4
-print(r1 - r2)        # -1/4
-print(r1.gcd_with(r2)) # 4
-print(r1.lcm_with(r2)) # 4
+✅ Utilities to compute GCD/LCM of denominators
