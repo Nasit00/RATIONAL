@@ -18,20 +18,3 @@ Features
 
 ✅ String representation ("numerator/denominator")
 
-Example Usage
-from rational import Rational
-
-# Create rationals
-r1 = Rational(1, 2)   # 1/2
-r2 = Rational(3, 4)   # 3/4
-
-# Arithmetic
-print(r1 + r2)   # 5/4
-print(r1 - r2)   # -1/4
-
-# GCD & LCM with denominators
-print(r1.gcd_with(r2))  # 4
-print(r1.lcm_with(r2))  # 4
-
-
-✅ Utilities to compute GCD/LCM of denominators
